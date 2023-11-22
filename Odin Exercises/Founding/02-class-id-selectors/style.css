@@ -1,0 +1,25 @@
+/* p:nth-child(odd) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(223, 55, 122)
+} THIS IS OPTIONAL WAY TO SELECT ODD NUMBER */
+
+
+.trioNumber {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(223, 55, 122)
+}
+
+#numberTwo {
+    font-size: 36px;
+    color: blue;
+}
+
+#numberThree {
+    font-size: 24px;
+}
+
+.numberFour {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
