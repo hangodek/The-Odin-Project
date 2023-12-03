@@ -1,3 +1,3 @@
 # The-Odin-Project
 
-What i learn from The Odin Project (TOP)
+Documentation of what i learn from theodinproject.com
