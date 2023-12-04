@@ -1,6 +1,8 @@
 .test1 {
     color: red;
     text-align: center;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 .test2 {
@@ -9,8 +11,22 @@
     display: contents;
 }
 
-.test2 > li {
-    padding: 3px;
+.test2 li {
+    padding: 10px;
+    border: 1px dashed black;
+    background-color: black;
+}
+
+.test2 li a {
+    text-decoration: none;
+    color: white;
+}
+
+.Main {
+    border: 2px solid black;
+    height: 250px;
+    width: 50%;
+    margin: auto;
 }
 
 .myDiv {
@@ -19,4 +35,10 @@
     box-sizing: border-box;
     width: 20%;
     margin: auto;
+}
+
+/* Pseudo */
+
+.test2 li:hover {
+    background-color: brown;
 }
