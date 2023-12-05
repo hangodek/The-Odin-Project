@@ -1,44 +1,50 @@
-.test1 {
-    color: red;
-    text-align: center;
-    font-style: italic;
-    text-decoration: underline;
-}
-
-.test2 {
-    text-align: center;
-    list-style-type: none;
-    display: contents;
-}
-
-.test2 li {
-    padding: 10px;
-    border: 1px dashed black;
-    background-color: black;
-}
-
-.test2 li a {
-    text-decoration: none;
-    color: white;
-}
-
-.Main {
-    border: 2px solid black;
-    height: 250px;
-    width: 50%;
-    margin: auto;
-}
-
-.myDiv {
-    border: 3px solid black;
-    border-radius: 10px;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    width: 20%;
-    margin: auto;
 }
 
-/* Pseudo */
+.header-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding-bottom: 10px;
+}
 
-.test2 li:hover {
-    background-color: brown;
+.header {
+    display: flex;
+    color: red;
+    font-size: 100px;
+    font-style: italic;
+}
+
+.content1-container {
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.allRecipes {
+    display: flex;
+}
+
+.recipe {
+    display: flex;
+    border: 1px solid black;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.recipe a {
+    text-decoration: none;
+    color: black;
+}
+
+.recipe:hover {
+    background-color: lightseagreen;
+    cursor: pointer;
 }
