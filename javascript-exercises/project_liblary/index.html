@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liblary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div id="modal">
+        <div class="modal-top">
+            <button id="modalBtn">X</button>
+            <h1>Book Information</h1>
+        </div>
+            
+        <div class="modal-bottom">
+            <form action="" method="get">
+                <div>
+                    <label for="author">Author :</label>
+                    <input type="text" name="author" id="author">
+                </div>
+                <div>
+                    <label for="title">Title :</label>
+                    <input type="text" name="title" id="title">
+                </div>
+                <div>
+                    <label for="pagenumber">Number of pages :</label>
+                    <input type="text" name="pagenumber" id="pagenumber">
+                </div>
+                <div>
+                    <label for="genre">Genre :</label>
+                    <input type="text" name="genre" id="genre">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <div class="container">
+
+        <div class="top">
+            <h1>Bookshelf</h1>
+            <button id="myBtn">Add new book</button>
+            <h2>---------------------------</h2>
+        </div>
+
+        <div class="bottom">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+        </div>
+
+    </div>
+
+    <div id="overlay"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
