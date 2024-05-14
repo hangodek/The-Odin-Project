@@ -35,7 +35,7 @@ button {
     padding: 20px;
 }
 
-.bottom div {
+.bottom > div {
     border: 1px solid black;
     height: 150px;
 }
@@ -62,7 +62,7 @@ button {
 
 #overlay {
     position: fixed;
-    opacity: 0;  
+    opacity: 0; 
     background-color: rgba(0, 0, 0, 0.5);
     top: 0;
     right: 0;
@@ -74,7 +74,7 @@ button {
 
 #overlay.active {
     opacity: 1;
-
+    pointer-events: all;
 }
 
 /* Modal Top */

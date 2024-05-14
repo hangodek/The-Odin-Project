@@ -8,14 +8,14 @@
 </head>
 <body>
     
-    <div id="modal">
+    <div class="modal" id="modal">
         <div class="modal-top">
             <button id="modalBtn">X</button>
             <h1>Book Information</h1>
         </div>
             
         <div class="modal-bottom">
-            <form action="" method="get">
+            <form action="" method="post">
                 <div>
                     <label for="author">Author :</label>
                     <input type="text" name="author" id="author">
@@ -32,6 +32,8 @@
                     <label for="genre">Genre :</label>
                     <input type="text" name="genre" id="genre">
                 </div>
+                <br>
+                <input type="submit" value="Submit" id="submit">
             </form>
         </div>
     </div>
@@ -59,7 +61,7 @@
 
     </div>
 
-    <div id="overlay"></div>
+    <div class="modal" id="overlay"></div>
 
     <script src="script.js"></script>
 
